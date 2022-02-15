@@ -16,7 +16,10 @@ def Step(inp):
             inp = input("Enter a number:")
             Step(inp)
         else:
-            print("Sum:", s, "Count:", count, "Average:", s/count)
+            if count!=0:
+                print("Sum:", s, "Count:", count, "Average:", s/count)
+            else:
+                print("There is no numerical data")
 
 inp = input("Enter a number:")
 Step(inp)
