@@ -1,0 +1,3 @@
+f = float(input("Enter the Farenheit:"))
+c = (f-32)/(1.8)
+print("The temperature in Celsius will be", round(c,1))
