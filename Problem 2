@@ -1,0 +1,22 @@
+#PROBLEM 2
+s = 0
+count = 0
+def Step(inp):
+    try:
+        inp = float(inp)
+        global s
+        s += inp
+        global count
+        count +=1
+        inp = input("Enter a number:")
+        Step(inp)
+    except ValueError:
+        if inp != "done":
+            print("Invalid input")
+            inp = input("Enter a number:")
+            Step(inp)
+        else:
+            print("Sum:", s, "Count:", count, "Average:", s/count)
+
+inp = input("Enter a number:")
+Step(inp)
