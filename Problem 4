@@ -1,6 +1,6 @@
 crd = input("Enter the coordinate in the following format - a1: ")
-Corresp = {"a":1,"b":2,"c":3,"d":4,"e":5,"f":6,"g":7,"h":8}
-x = Corresp[crd[0]]
+corresp = {"a":1,"b":2,"c":3,"d":4,"e":5,"f":6,"g":7,"h":8}
+x = corresp[crd[0]]
 y = int(crd[1])
 
 if (x+y)%2==0:
