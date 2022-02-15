@@ -1,4 +1,0 @@
-#PROBLEM 1
-hours = eval(input("Enter Hours:"))
-rate = eval(input("Enter Rate:"))
-print("Pay:", hours*rate)
